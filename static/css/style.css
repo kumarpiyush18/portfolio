@@ -132,10 +132,12 @@ nav {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
     nav {
         flex-direction: column;
         gap: 20px;
+        text-align: center;
     }
 
     .nav-links {
