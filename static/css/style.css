@@ -131,6 +131,24 @@ nav {
     box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
 }
 
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .headline {
+        font-size: 3rem;
+    }
+}
+
 /* Hero */
 #hero {
     padding: 100px 0;
