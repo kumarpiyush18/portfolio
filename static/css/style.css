@@ -205,6 +205,29 @@ nav {
     border-color: var(--primary-color);
 }
 
+.highlight-name {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: pulseName 2s infinite ease-in-out;
+}
+
+@keyframes pulseName {
+
+    0%,
+    100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 0 rgba(56, 189, 248, 0));
+    }
+
+    50% {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.5));
+    }
+}
+
 /* Sections */
 section {
     padding: 80px 0;

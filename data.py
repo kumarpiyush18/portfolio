@@ -5,15 +5,15 @@ site_config = {
     "author": "Kumar",
     "description": "A showcase of my work and skills.",
     "socials": [
-        {"name": "GitHub", "url": "https://github.com/kumar", "icon": "github"},
-        {"name": "LinkedIn", "url": "https://linkedin.com/in/kumar", "icon": "linkedin"},
+        {"name": "GitHub", "url": "https://github.com/kumarpiyush18", "icon": "github"},
+        {"name": "LinkedIn", "url": "https://www.linkedin.com/in/krpiyush013/", "icon": "linkedin"},
         {"name": "Twitter", "url": "https://twitter.com/kumar", "icon": "twitter"},
     ],
     "github_username": "google" # Demo username, user can change
 }
 
 bio = {
-    "headline": "Hi, I'm Kumar Piyush.",
+    "headline": "Hi, I'm Kumar <span class=\"highlight-name\">Piyush</span>.",
     "subheadline": "I build intelligent agents and scalable systems.",
     "about": "I am a passionate developer with a focus on AI agents, Python, and web technologies. I love solving complex problems and building tools that help people be more productive."
 }

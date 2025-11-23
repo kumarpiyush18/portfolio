@@ -2,7 +2,7 @@
 
 {% block content %}
 <section id="hero" class="container">
-    <h1 class="headline animate-entry">{{ bio.headline }}</h1>
+    <h1 class="headline animate-entry">{{ bio.headline | safe }}</h1>
     <p class="subheadline animate-entry delay-1">{{ bio.subheadline }}</p>
     <p class="about-text animate-entry delay-2">{{ bio.about }}</p>
     <div class="socials animate-entry delay-3">
