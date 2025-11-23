@@ -13,7 +13,7 @@ site_config = {
 }
 
 bio = {
-    "headline": "Hi, I'm Kumar <span class=\"highlight-name\">Piyush</span>.",
+    "headline": "Hi, I'm Kumar <span class=\"name-container\"><span class=\"char\" style=\"--i:1\">P</span><span class=\"char\" style=\"--i:2\">i</span><span class=\"char\" style=\"--i:3\">y</span><span class=\"char\" style=\"--i:4\">u</span><span class=\"char\" style=\"--i:5\">s</span><span class=\"char\" style=\"--i:6\">h</span></span>.",
     "subheadline": "I build intelligent agents and scalable systems.",
     "about": "I am a passionate developer with a focus on AI agents, Python, and web technologies. I love solving complex problems and building tools that help people be more productive."
 }

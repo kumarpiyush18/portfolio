@@ -205,26 +205,27 @@ nav {
     border-color: var(--primary-color);
 }
 
-.highlight-name {
+.name-container {
     display: inline-block;
+}
+
+.char {
+    display: inline-block;
+    opacity: 0;
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: pulseName 2s infinite ease-in-out;
+    animation: appear 0.5s forwards;
+    animation-delay: calc(var(--i) * 0.1s + 0.5s);
+    /* Start after initial load */
+    transform: translateY(20px);
 }
 
-@keyframes pulseName {
-
-    0%,
-    100% {
-        transform: scale(1);
-        filter: drop-shadow(0 0 0 rgba(56, 189, 248, 0));
-    }
-
-    50% {
-        transform: scale(1.05);
-        filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.5));
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
