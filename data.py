@@ -9,7 +9,7 @@ site_config = {
         {"name": "LinkedIn", "url": "https://www.linkedin.com/in/krpiyush013/", "icon": "linkedin"},
         {"name": "Twitter", "url": "https://twitter.com/kumar", "icon": "twitter"},
     ],
-    "github_username": "google" # Demo username, user can change
+    "github_username": "kumarpiyush18" # Demo username, user can change
 }
 
 bio = {

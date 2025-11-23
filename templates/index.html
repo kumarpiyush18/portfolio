@@ -49,22 +49,9 @@
 
 <section id="activity" class="container animate-entry delay-3">
     <h2>Latest Activity 🐙</h2>
-    <div class="glass-card" style="padding: 20px;">
-        {% if github_activity %}
-        <ul style="list-style: none;">
-            {% for event in github_activity %}
-            <li style="margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 10px;">
-                <span style="color: var(--primary-color); font-weight: 600;">{{ event.type }}</span>
-                on <a href="https://github.com/{{ event.repo.name }}" target="_blank"
-                    style="color: var(--text-color);">{{ event.repo.name }}</a>
-                <br>
-                <span style="font-size: 0.85rem; color: var(--text-muted);">{{ event.created_at[:10] }}</span>
-            </li>
-            {% endfor %}
-        </ul>
-        {% else %}
-        <p>No recent activity found (or API rate limit reached).</p>
-        {% endif %}
+    <div class="glass-card" style="padding: 20px; text-align: center; overflow-x: auto;">
+        <img src="https://ghchart.rshah.org/{{ config.github_username }}"
+            alt="{{ config.github_username }}'s Github Chart" style="max-width: 100%;" />
     </div>
 </section>
 
