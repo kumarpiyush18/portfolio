@@ -2,7 +2,7 @@
 
 site_config = {
     "title": "Kumar's Portfolio",
-    "author": "Kumar",
+    "author": "<span class=\"name-container\"><span class=\"char\" style=\"--i:1\">K</span><span class=\"char\" style=\"--i:2\">u</span><span class=\"char\" style=\"--i:3\">m</span><span class=\"char\" style=\"--i:4\">a</span><span class=\"char\" style=\"--i:5\">r</span></span>",
     "description": "A showcase of my work and skills.",
     "socials": [
         {"name": "GitHub", "url": "https://github.com/kumarpiyush18", "icon": "github"},

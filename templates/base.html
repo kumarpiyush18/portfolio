@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">{{ config.author }}</div>
+            <div class="logo">{{ config.author | safe }}</div>
             <ul class="nav-links">
                 <li><a href="{{ root_path|default('.') }}/index.html#about">About</a></li>
                 <li><a href="{{ root_path|default('.') }}/index.html#projects">Projects</a></li>
